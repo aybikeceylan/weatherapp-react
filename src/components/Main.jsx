@@ -6,7 +6,7 @@ const Main = () => {
     return (
         <div className="main ">
             <h1 className="title d-flex justify-content-center">Welcome</h1>
-            <p className="title d-flex justify-content-center">Please Click Button For Other Countries' Weather Condition</p>
+            <p className="title d-flex justify-content-center">Please Click Button For Other Cities' Weather Condition</p>
             <Btn />
             <Chart />
         </div>

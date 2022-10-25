@@ -8,7 +8,7 @@ const Btn = () => {
                 Turkey Map
             </Button>
             <Button variant="dark" size="lg" className="m-1 w-15">
-                List of Countries
+                List of Cities
             </Button>
         </div>
     )
