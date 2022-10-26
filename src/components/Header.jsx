@@ -8,7 +8,7 @@ function Header() {
         <>
             <Navbar bg="secondary" variant="secondary">
                 <Container>
-                    <Navbar.Brand href="#home" className="text-dark">WeatherApp</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="text-dark ">WeatherApp</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className="text-light">Home</Nav.Link>
                         <Nav.Link href="#features" className="text-light">Turkey Map</Nav.Link>

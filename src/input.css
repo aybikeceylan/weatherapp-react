@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    126deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(20, 67, 217, 1) 35%,
+    rgba(46, 220, 237, 1) 100%
+  );
+}

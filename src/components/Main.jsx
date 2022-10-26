@@ -3,6 +3,7 @@ import Btn from './Btn'
 import Chart from './Chart'
 
 const Main = ({ weather }) => {
+    console.log(weather)
     return (
         <div className="main ">
             <h1 className="title d-flex justify-content-center">Welcome</h1>
