@@ -12,7 +12,7 @@ function Header() {
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className="text-light">Home</Nav.Link>
                         <Nav.Link href="#features" className="text-light">Turkey Map</Nav.Link>
-                        <Nav.Link href="#pricing" className="text-light">List Of Country</Nav.Link>
+                        <Nav.Link href="#pricing" className="text-light">List Of City</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

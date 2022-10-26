@@ -6,7 +6,9 @@ import TurkeyMap from 'turkey-map-react';
 const Turkeymap = () => {
     const [cityName, setCityName] = useState("")
 
-
+    // const handleClick = () => {
+    //     setCity(cityName.split(" ")[1])
+    // }
 
 
     return (
@@ -16,7 +18,7 @@ const Turkeymap = () => {
                 hoverable={true}
                 customStyle={{ idleColor: "#dc3522", hoverColor: "#eeee" }}
                 onHover={({ plateNumber, name }) => setCityName(plateNumber + "-" + name)}
-                onClick={({ plateNumber, name }) => console.log(plateNumber + " - " + name + " is just clicked!")}
+
             />
 
         </div>
