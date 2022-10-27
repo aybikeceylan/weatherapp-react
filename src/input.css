@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 .App {
-  background: rgb(2, 0, 36);
+  background: rgb(0, 6, 36);
   background: linear-gradient(
     126deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(20, 67, 217, 1) 35%,
-    rgba(46, 220, 237, 1) 100%
+    rgba(0, 6, 36, 0.773546918767507) 0%,
+    rgba(52, 142, 189, 0.7203256302521008) 50%,
+    rgba(46, 185, 237, 1) 100%
   );
+  height: 850px;
+}
+.chart {
+  background-color: rgb(255, 35, 72) !important;
+}
+.navbar {
+  background-color: #000624;
+}
+.btn {
+  background-color: #000624 !important;
+  border-color: aliceblue !important;
 }

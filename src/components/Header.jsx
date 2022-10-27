@@ -2,17 +2,18 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
     return (
         <>
-            <Navbar bg="secondary" variant="secondary">
+            <Navbar className="navbar">
                 <Container>
-                    <Navbar.Brand href="#home" className="text-dark ">WeatherApp</Navbar.Brand>
+                    <NavLink to="/" className="text-secondary navbar-brand ">WeatherApp</NavLink>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home" className="text-light">Home</Nav.Link>
-                        <Nav.Link href="#features" className="text-light">Turkey Map</Nav.Link>
-                        <Nav.Link href="#pricing" className="text-light">List Of City</Nav.Link>
+                        <NavLink to="/" className="text-light text-decoration-none mx-1" >Home</NavLink>
+                        <NavLink to="/TurkeyMap" className="text-light text-decoration-none mx-1">Turkey Map</NavLink>
+                        <NavLink to="/ListOfCities" className="text-light text-decoration-none mx-1">List Of Cities</NavLink>
                     </Nav>
                 </Container>
             </Navbar>

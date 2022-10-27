@@ -1,13 +1,16 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 const Btn = () => {
+
+    const navigate = useNavigate()
     return (
         <div className="m-2  d-flex justify-content-center">
-            <Button variant="dark" size="lg" className="m-1 w-15">
+            <Button size="lg" className=" btn m-1 w-15" onClick={() => navigate(`/TurkeyMap`)}>
                 Turkey Map
             </Button>
-            <Button variant="dark" size="lg" className="m-1 w-15">
+            <Button size="lg" className=" btn m-1 w-15 " onClick={() => navigate(`/ListOfCities`)}>
                 List of Cities
             </Button>
         </div>

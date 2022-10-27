@@ -1,13 +1,17 @@
 import React, { useState } from 'react'
 import TurkeyMap from 'turkey-map-react';
+import { useNavigate } from "react-router-dom";
 
 
 
-const Turkeymap = ({ setCity }) => {
+const Turkeymap = ({ setCurrent, current }) => {
     const [title, setTitle] = useState("")
+    const navigate = useNavigate()
 
     const handleClick = () => {
-        setCity(title.split(" ")[1])
+        setCurrent(title.split("-")[1])
+        console.log(current);
+        navigate(`/`)
     }
 
 
