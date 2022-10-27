@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-const Turkeymap = ({ setCurrent, current }) => {
+const TrkMap = ({ setCurrent, current }) => {
     const [title, setTitle] = useState("")
     const navigate = useNavigate()
 
@@ -17,6 +17,7 @@ const Turkeymap = ({ setCurrent, current }) => {
 
     return (
         <div>
+
             <div><h3 className='text-center text-light mt-3'>{title}</h3></div>
             <TurkeyMap
                 hoverable={true}
@@ -29,4 +30,4 @@ const Turkeymap = ({ setCurrent, current }) => {
     )
 }
 
-export default Turkeymap
+export default TrkMap
