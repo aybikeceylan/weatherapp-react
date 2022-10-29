@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import TrkMap from 'turkey-map-react'
+import TrkMap from '../pages/TrkMap'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import ListOfCities from '../pages/ListOfCities'
