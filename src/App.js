@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <AppRouter data={data} setCurrent={setCurrent} curreny={current} />
+      <AppRouter data={data} setCurrent={setCurrent} current={current} />
 
     </div>
   );
