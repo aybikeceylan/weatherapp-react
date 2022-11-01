@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     getWeather();
 
-  }, []);
+  }, [current]);
 
   console.log(data)
 
